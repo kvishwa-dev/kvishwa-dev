@@ -10,6 +10,7 @@ I enjoy solving real-world problems through intelligent systems and building imp
 ## 🧠 About Me
 
 - 🎓 B.Tech in Computer Science & Engineering  
+- 🎓 B.S. in Data Science & Programming
 - 📊 Strong interest in Machine Learning & AI Systems  
 - 🔬 Exploring AI for Cybersecurity & Secure Systems  
 
@@ -18,13 +19,13 @@ I enjoy solving real-world problems through intelligent systems and building imp
 ## 💻 Tech Stack
 
 **Languages:**  
-Java • Python • C • C++ • JavaScript  
-
-**Frameworks:**  
-React • Node.js • Express  
+Java • Python • C • C++ • JavaScript   
 
 **Libraries:**  
 NumPy • Pandas • Matplotlib • Scikit-learn  
+
+**Frameworks:**  
+React • Node.js • Express 
 
 **Databases:**  
 MySQL • MongoDB  
@@ -39,8 +40,7 @@ Data Structures & Algorithms • Machine Learning • OOP • REST APIs
 🔹 **Med Genie AI** – AI-powered healthcare assistant  
 🔹 **Startup Cell LNJPIT** – Campus innovation initiative  
 
-👉 View Portfolio:  
-🌐 https://kvishwa-dev.vercel.app
+👉 View Portfolio: https://kvishwa-dev.vercel.app
 
 ---
 
@@ -49,14 +49,6 @@ Data Structures & Algorithms • Machine Learning • OOP • REST APIs
 - 📧 Email: cse.kvishwa@gmail.com  
 - 💼 LinkedIn: https://linkedin.com/in/kvishwa-dev  
 - 💻 GitHub: https://github.com/kvishwa-dev  
-
----
-
-## 📈 GitHub Stats
-
-![Vishwajeet's GitHub stats](https://github-readme-stats.vercel.app/api?username=kvishwa-dev&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kvishwa-dev&layout=compact&theme=tokyonight)
 
 ---
 
