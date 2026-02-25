@@ -3,5 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/kvishwa-dev/",   // 👈 VERY IMPORTANT
+  base: process.env.VITE_DEPLOY_ENV === "gh-pages"
+  ? "/kvishwa-dev/"
+  : "/"
 })
