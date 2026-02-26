@@ -63,7 +63,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://linkedin.com/in/wivktech"
+              href="https://linkedin.com/in/kvishwa-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white p-4 rounded-full shadow-lg hover:scale-110 hover:bg-blue-100 transition duration-300"
