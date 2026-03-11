@@ -28,9 +28,7 @@ export default function Skills() {
       "Machine Learning",
       "Artificial Intelligence",
       "Object Oriented Programming",
-      "Database Management System",
-      "Computer Networks",
-      "REST APIs"
+      "Database Management System"
     ]
   }
 
