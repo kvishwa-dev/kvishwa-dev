@@ -52,4 +52,11 @@ Data Structures & Algorithms • Machine Learning • OOP • REST APIs
 
 ---
 
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=Kallgit22&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Kallgit22&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Kallgit22&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+---
+
 ### ⚡ “Building intelligent systems for a smarter future.”
