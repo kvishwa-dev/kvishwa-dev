@@ -46,7 +46,7 @@ Data Structures & Algorithms • Machine Learning • OOP • REST APIs
 
 ## 📫 Connect With Me
 
-- 📧 Email: cse.kvishwa@gmail.com  
+- 📧 Email: kvishwa@zohomail.in 
 - 💼 LinkedIn: https://linkedin.com/in/kvishwa-dev  
 - 💻 GitHub: https://github.com/kvishwa-dev  
 
