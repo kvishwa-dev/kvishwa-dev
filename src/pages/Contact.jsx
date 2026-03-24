@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"
+import { SiLeetcode } from "react-icons/si"
 
 export default function Contact() {
   return (
@@ -19,12 +20,12 @@ export default function Contact() {
 
           {/* Email */}
           <a
-            href="mailto:kvishwa@zohomail.in"
+            href="mailto:kvishwa@outlook.in"
             className="flex items-center space-x-3 bg-indigo-50 px-6 py-3 rounded-lg hover:bg-indigo-100 hover:scale-105 transition"
           >
             <FaEnvelope className="text-indigo-600" size={20} />
             <span className="font-medium text-gray-700">
-              kvishwa@zohomail.in
+              kvishwa@outlook.in
             </span>
           </a>
 
@@ -40,6 +41,17 @@ export default function Contact() {
               <FaGithub className="text-indigo-600" size={20} />
               <span className="font-medium text-gray-700">
                 GitHub
+              </span>
+            </a>
+            <a
+              href="https://leetcode.com/kvishwa-dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-3 bg-yellow-50 px-6 py-3 rounded-lg hover:bg-yellow-100 hover:scale-105 transition"
+            >
+              <SiLeetcode className="text-yellow-600" size={20} />
+              <span className="font-medium text-gray-700">
+                LeetCode
               </span>
             </a>
 

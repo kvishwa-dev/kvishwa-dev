@@ -47,7 +47,7 @@ export default function Home() {
           <div className="flex justify-center md:justify-start space-x-5">
 
             <a
-              href="mailto:kvishwa@zohomail.in"
+              href="mailto:kvishwa@outlook.in"
               className="bg-white p-4 rounded-full shadow-lg hover:scale-110 hover:bg-indigo-50 transition duration-300"
             >
               <FaEnvelope className="text-indigo-600 text-xl" />
