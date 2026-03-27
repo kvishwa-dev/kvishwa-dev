@@ -56,6 +56,7 @@ Data Structures & Algorithms • Machine Learning • OOP • REST APIs
 ![](https://github-readme-stats.vercel.app/api?username=kvishwa-dev&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=kvishwa-dev&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=kvishwa-dev&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![](https://streak-stats.demolab.com?user=kvishwa-dev&theme=default&hide_border=true)
 
 ---
 
