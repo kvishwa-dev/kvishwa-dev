@@ -54,7 +54,7 @@ Data Structures & Algorithms • Machine Learning • OOP • REST APIs
 
 # 📊 GitHub Stats:
 
-[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/kvishwa-dev?cardType=github&fontFamily=Alegreya%20Sans%20SC&preferLogin=false)]
+![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/kvishwa-dev?cardType=github&fontFamily=Alegreya%20Sans%20SC&preferLogin=false)
 
 ![](https://streak-stats.demolab.com?user=kvishwa-dev&theme=default&hide_border=true)
 
