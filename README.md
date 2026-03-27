@@ -58,6 +58,10 @@ Data Structures & Algorithms • Machine Learning • OOP • REST APIs
 
 ![](https://streak-stats.demolab.com?user=kvishwa-dev&theme=default&hide_border=true)
 
+![kvishwa-dev's Language stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=kvishwa-dev&type=languages&theme=default&chart=bars)
+
+![kvishwa-dev's Top Repos](https://git-hub-stats-card-generator.vercel.app/api/svg?username=kvishwa-dev&type=top-repos&theme=default)
+
 ---
 
 ### ⚡ “Building intelligent systems for a smarter future.”
