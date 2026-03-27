@@ -54,11 +54,11 @@ Data Structures & Algorithms • Machine Learning • OOP • REST APIs
 
 # 📊 GitHub Stats:
 
-![](https://awesome-github-stats.azurewebsites.net/user-stats/kvishwa-dev?cardType=level&fontFamily=&preferLogin=false)
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/kvishwa-dev?cardType=github&fontFamily=Alegreya%20Sans%20SC&preferLogin=false)]
 
 ![](https://streak-stats.demolab.com?user=kvishwa-dev&theme=default&hide_border=true)
 
-![kvishwa-dev's Language stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=kvishwa-dev&type=languages&theme=default&chart=bars)
+![kvishwa-dev's Language stats](https://git-hub-stats-card-generator.vercel.app/api/svg?username=kvishwa-dev&type=languages&theme=default&chart=pie)
 
 ![kvishwa-dev's Top Repos](https://git-hub-stats-card-generator.vercel.app/api/svg?username=kvishwa-dev&type=top-repos&theme=default)
 
