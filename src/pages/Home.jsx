@@ -84,11 +84,19 @@ export default function Home() {
           {/* Glow */}
           <div className="absolute inset-0 bg-gradient-to-r from-indigo-400 to-purple-400 rounded-full blur-3xl opacity-20"></div>
 
-          <img
+          {/* <img
             src="/profile.jpg"
             alt="Profile"
             className="h-[40vh] sm:h-[50vh] md:h-[70vh] object-contain relative z-10 drop-shadow-2xl"
-          />
+          /> */}
+
+          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-[12px] border-slate-100 overflow-hidden shadow-2xl bg-slate-200">
+                    <img src="profile.jpg" alt="Profile" className="w-full h-full object-cover"/>
+                </div>
+          <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-2xl shadow-xl border border-slate-100 hidden md:block">
+                    <p className="text-xs font-bold text-slate-400 uppercase">Location</p>
+                    <p className="font-bold text-slate-800 italic">India 🇮🇳</p>
+                </div>
 
         </div>
 

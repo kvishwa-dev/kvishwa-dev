@@ -9,15 +9,26 @@ export default function Projects() {
         "AI-powered healthcare assistant that analyzes symptoms and provides preliminary medical insights.",
       github: "https://github.com/kvishwa-dev/med-genie-ai",
       live: "https://med-genie-ai.vercel.app/",
+      tags: ["AI", "Healthcare", "MERN"],
     },
     {
       title: "Startup Cell LNJPIT",
       description:
         "Institutional initiative focused on fostering entrepreneurship and innovation within campus.",
       github: "https://github.com/kvishwa-dev/startup-cell-lnjpit",
-      live: "https://startup-cell-lnjpit.vercel.app/", 
+      live: "https://startup-cell-lnjpit.vercel.app/",
+      tags: ["MERN", "Startup", "Web"],
     },
   ]
+
+  // 🎨 Tag color map
+  const tagColors = {
+    AI: "bg-purple-100 text-purple-600",
+    MERN: "bg-green-100 text-green-600",
+    Healthcare: "bg-red-100 text-red-600",
+    Startup: "bg-yellow-100 text-yellow-600",
+    Web: "bg-blue-100 text-blue-600",
+  }
 
   return (
     <div className="py-20 px-6 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 min-h-screen">
@@ -38,6 +49,20 @@ export default function Projects() {
                   {project.title}
                 </h3>
 
+                {/* Tags */}
+                <div className="flex justify-center flex-wrap gap-2 mb-4">
+                  {project.tags.map((tag, i) => (
+                    <span
+                      key={i}
+                      className={`text-xs font-semibold px-3 py-1 rounded-full ${
+                        tagColors[tag] || "bg-gray-100 text-gray-600"
+                      }`}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
                 <p className="text-gray-700 leading-relaxed mb-6">
                   {project.description}
                 </p>
@@ -46,7 +71,6 @@ export default function Projects() {
               {/* Buttons */}
               <div className="flex justify-center gap-4 mt-4 flex-wrap">
 
-                {/* GitHub Button */}
                 <a
                   href={project.github}
                   target="_blank"
@@ -57,7 +81,6 @@ export default function Projects() {
                   <span>View Code</span>
                 </a>
 
-                {/* Live Demo Button */}
                 {project.live ? (
                   <a
                     href={project.live}
@@ -75,7 +98,6 @@ export default function Projects() {
                 )}
 
               </div>
-
             </div>
           ))}
         </div>

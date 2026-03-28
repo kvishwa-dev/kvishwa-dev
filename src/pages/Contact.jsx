@@ -29,45 +29,46 @@ export default function Contact() {
             </span>
           </a>
 
-          {/* GitHub + LinkedIn Row */}
-          <div className="flex space-x-6">
+          {/* GitHub + LinkedIn + LeetCode */}
+<div className="flex flex-col sm:flex-row gap-4 sm:gap-6 w-full justify-center items-center">
 
-            <a
-              href="https://github.com/kvishwa-dev"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-3 bg-indigo-50 px-6 py-3 rounded-lg hover:bg-indigo-100 hover:scale-105 transition"
-            >
-              <FaGithub className="text-indigo-600" size={20} />
-              <span className="font-medium text-gray-700">
-                GitHub
-              </span>
-            </a>
-            <a
-              href="https://leetcode.com/kvishwa-dev"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-3 bg-yellow-50 px-6 py-3 rounded-lg hover:bg-yellow-100 hover:scale-105 transition"
-            >
-              <SiLeetcode className="text-yellow-600" size={20} />
-              <span className="font-medium text-gray-700">
-                LeetCode
-              </span>
-            </a>
+  <a
+    href="https://github.com/kvishwa-dev"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center justify-center space-x-3 bg-indigo-50 px-6 py-3 rounded-lg hover:bg-indigo-100 hover:scale-105 transition w-full sm:w-auto"
+  >
+    <FaGithub className="text-indigo-600" size={20} />
+    <span className="font-medium text-gray-700">
+      GitHub
+    </span>
+  </a>
 
-            <a
-              href="https://www.linkedin.com/in/kvishwa-dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-3 bg-indigo-50 px-6 py-3 rounded-lg hover:bg-indigo-100 hover:scale-105 transition"
-            >
-              <FaLinkedin className="text-indigo-600" size={20} />
-              <span className="font-medium text-gray-700">
-                LinkedIn
-              </span>
-            </a>
+  <a
+    href="https://leetcode.com/kvishwa-dev"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center justify-center space-x-3 bg-yellow-50 px-6 py-3 rounded-lg hover:bg-yellow-100 hover:scale-105 transition w-full sm:w-auto"
+  >
+    <SiLeetcode className="text-yellow-600" size={20} />
+    <span className="font-medium text-gray-700">
+      LeetCode
+    </span>
+  </a>
 
-          </div>
+  <a
+    href="https://www.linkedin.com/in/kvishwa-dev/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center justify-center space-x-3 bg-indigo-50 px-6 py-3 rounded-lg hover:bg-indigo-100 hover:scale-105 transition w-full sm:w-auto"
+  >
+    <FaLinkedin className="text-indigo-600" size={20} />
+    <span className="font-medium text-gray-700">
+      LinkedIn
+    </span>
+  </a>
+
+</div>
 
         </div>
 
