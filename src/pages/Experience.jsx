@@ -8,7 +8,7 @@ export default function Experience() {
       desc: "Will be learning and working on real world projects of MERN.",
       cert: "#",
       status: "Ongoing",
-      logo: "/logos/cdac.jpg", // 👈 add logo in public/logos
+      logo: "/logos/cdac.jpg",
     },
     {
       title: "AI & Data Science Intern Trainee",
@@ -44,9 +44,9 @@ export default function Experience() {
   }
 
   return (
-    <div className="py-20 px-4 sm:px-6 md:px-8 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 min-h-screen">
+    <div className="py-20 px-4 sm:px-6 bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 min-h-screen">
 
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-2xl mx-auto">
 
         <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center text-gray-800">
           Internships & Training
@@ -60,8 +60,8 @@ export default function Experience() {
               className="bg-white/80 backdrop-blur-md shadow-xl rounded-2xl p-6 sm:p-8 hover:shadow-2xl transition duration-300"
             >
 
-              {/* 🔥 Top Section (Logo + Title) */}
-              <div className="flex items-start gap-4 mb-4">
+              {/* 🔥 Header */}
+              <div className="flex items-start gap-4">
 
                 {/* Logo */}
                 <img
@@ -71,7 +71,7 @@ export default function Experience() {
                 />
 
                 {/* Title + Status */}
-                <div className="flex-1">
+                <div>
 
                   <h3 className="text-lg sm:text-xl font-semibold text-indigo-600 mb-2">
                     {exp.title}
@@ -85,30 +85,31 @@ export default function Experience() {
 
               </div>
 
-              {/* Org */}
-              <p className="text-gray-600">
-                {exp.org}
-              </p>
+              {/* 🔥 Content aligned properly */}
+              <div className="mt-4 pl-[64px]">
 
-              {/* Duration */}
-              <p className="text-sm text-gray-500 mb-4">
-                {exp.duration}
-              </p>
+                <p className="text-gray-600">
+                  {exp.org}
+                </p>
 
-              {/* Description */}
-              <p className="text-gray-700 leading-relaxed mb-6 text-sm sm:text-base">
-                {exp.desc}
-              </p>
+                <p className="text-sm text-gray-500 mb-4">
+                  {exp.duration}
+                </p>
 
-              {/* Button */}
-              <a
-                href={exp.cert}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full sm:w-fit inline-block text-center bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:scale-105 transition duration-300"
-              >
-                View Certificate
-              </a>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  {exp.desc}
+                </p>
+
+                <a
+                  href={exp.cert}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:scale-105 transition duration-300"
+                >
+                  View Certificate
+                </a>
+
+              </div>
 
             </div>
           ))}

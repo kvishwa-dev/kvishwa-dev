@@ -39,7 +39,7 @@ export default function Skills() {
         Skills
       </h2>
 
-      <div className="max-w-6xl mx-auto space-y-12">
+      <div className="max-w-4xl mx-auto space-y-12">
 
         {Object.entries(skillCategories).map(([category, skills], index) => (
           <div
