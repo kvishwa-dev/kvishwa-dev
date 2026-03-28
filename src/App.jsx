@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
-import { Routes, Route } from "react-router-dom"
+
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Skills from "./pages/Skills"
@@ -12,21 +12,44 @@ import Achievements from "./pages/Achievements"
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen scroll-smooth">
 
       <Navbar />
 
       <main className="flex-grow">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/achievements" element={<Achievements />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+
+        <section id="home">
+          <Home />
+        </section>
+
+        <section id="about">
+          <About />
+        </section>
+
+        <section id="skills">
+          <Skills />
+        </section>
+
+        <section id="projects">
+          <Projects />
+        </section>
+
+        <section id="experience">
+          <Experience />
+        </section>
+
+        <section id="education">
+          <Education />
+        </section>
+
+        <section id="achievements">
+          <Achievements />
+        </section>
+
+        <section id="contact">
+          <Contact />
+        </section>
+
       </main>
 
       <Footer />
