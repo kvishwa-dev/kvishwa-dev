@@ -35,7 +35,7 @@ export default function Achievements() {
 
             {/* Button */}
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1gUnaHAe_LWh1p4zoa6b4fg58SxDPZcMA/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-fit inline-block bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:scale-105 transition duration-300"
@@ -70,7 +70,7 @@ export default function Achievements() {
 
             {/* Button */}
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1uFUWJreUYSUIay40NfzqZDtWG__VgJAR/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-fit inline-block bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:scale-105 transition duration-300"

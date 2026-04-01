@@ -20,12 +20,12 @@ export default function Contact() {
 
           {/* Email */}
           <a
-            href="mailto:kvishwa@outlook.in"
+            href="mailto:cse.kvishwa@gmail.com"
             className="flex items-center space-x-3 bg-indigo-50 px-6 py-3 rounded-lg hover:bg-indigo-100 hover:scale-105 transition"
           >
             <FaEnvelope className="text-indigo-600" size={20} />
             <span className="font-medium text-gray-700">
-              kvishwa@outlook.in
+              cse.kvishwa@gmail.com
             </span>
           </a>
 

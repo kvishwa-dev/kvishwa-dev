@@ -71,7 +71,7 @@ export default function Home() {
             </a>
 
             <a
-              href="/resume.pdf"
+              href="/Resume.pdf"
               download
               className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 border border-indigo-600 text-indigo-600 rounded-lg hover:bg-indigo-50 hover:scale-105 transition duration-300"
             >
@@ -84,7 +84,7 @@ export default function Home() {
           {/* Social */}
           <div className="flex justify-center md:justify-start gap-4 sm:gap-5">
 
-            <a href="mailto:kvishwa@outlook.in" className="bg-white p-3 sm:p-4 rounded-full shadow-lg hover:scale-110 transition">
+            <a href="mailto:cse.kvishwa@gmail.com" className="bg-white p-3 sm:p-4 rounded-full shadow-lg hover:scale-110 transition">
               <FaEnvelope className="text-indigo-600 text-lg sm:text-xl" />
             </a>
 

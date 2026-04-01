@@ -2,20 +2,20 @@ export default function Experience() {
 
   const experiences = [
     {
-      title: "Full Stack Development using MERN Stack",
-      org: "C-DAC Patna",
-      duration: "01 April 2026 onwards",
-      desc: "Will be learning and working on real world projects of MERN.",
-      cert: "#",
+      title: "Cyber Security Intern",
+      org: "Anonymous India",
+      duration: "02 April 2026 onwards",
+      desc: "Will be learning and working on Cyber Security skills.",
+      cert: "https://drive.google.com/file/d/14yvNxjmdJ-vtUcb8rb6TVjnNi4F1I1A1/view?usp=sharing",
       status: "Ongoing",
-      logo: "/logos/cdac.jpg",
+      logo: "/logos/anony.png",
     },
     {
       title: "AI & Data Science Intern Trainee",
       org: "C-DAC Patna",
       duration: "02 May 2025 – 30 May 2025",
       desc: "Worked on Machine Learning tasks including Regression, Classification, and SVM models.",
-      cert: "#",
+      cert: "https://drive.google.com/file/d/1nThYTTB8K5ErJzFBbybZIwJxD-k2tV2R/view?usp=sharing",
       status: "Completed",
       logo: "/logos/cdac.jpg",
     },
