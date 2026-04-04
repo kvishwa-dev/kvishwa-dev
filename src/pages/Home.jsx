@@ -64,7 +64,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-8 md:mb-10">
 
             <a
-              href="/projects"
+              href="#projects"
               className="w-full sm:w-auto text-center px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-lg shadow-lg hover:scale-105 transition duration-300"
             >
               View Projects
