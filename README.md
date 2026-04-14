@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kvishwa-dev&label=Profile%20Views&color=00C9FF&style=flat" />
+</p>
+
+---
+
 # Hi 👋, I'm Vishwajeet Kumar
 
 ### 🚀 Aspiring Data Scientist | ML Engineer | AI Enthusiast
@@ -7,11 +13,6 @@ I enjoy solving real-world problems through intelligent systems and building imp
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kvishwa-dev&label=Profile%20Views&color=00C9FF&style=flat" />
-</p>
-
----
 
 ## 🧠 About Me
 
