@@ -7,6 +7,12 @@ I enjoy solving real-world problems through intelligent systems and building imp
 
 ---
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kvishwa-dev&label=Profile%20Views&color=00C9FF&style=flat" />
+</p>
+
+---
+
 ## 🧠 About Me
 
 - 🎓 B.Tech in Computer Science & Engineering  
